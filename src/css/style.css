@@ -57,6 +57,21 @@ section#feature ul li {
   list-style-type: none;
   line-height: 2.0em; }
 
+section#title-bar {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background-color: #1caa98;
+  color: white; }
+
+section#title-bar h1 {
+  margin: 1rem 0; }
+
+.form-group
+.form-control {
+  border: 0;
+  border-bottom: 1px dotted #1b222a; }
+
 footer {
   background: #333333;
   color: white;
