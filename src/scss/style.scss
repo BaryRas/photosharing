@@ -81,6 +81,35 @@ section#feature ul li{
     line-height: 2.0em;
 }
 
+section#title-bar {
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    background-color: $dark-cyan;
+    color: white;
+}
+
+section#title-bar h1 {
+    margin: 1rem 0;
+}
+
+// Form group
+.form-group
+.form-control {
+    border: 0;
+    border-bottom: 1px dotted  $very-dark-blue ;
+}
+
+#accordion {
+    margin-bottom: 20px;
+
+    .card-header a {
+        color: inherit;
+    }
+}
+
+
+
 footer {
     background: lighten($color: black, $amount: 20%);
     color: white;
