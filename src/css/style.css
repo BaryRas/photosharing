@@ -72,6 +72,11 @@ section#title-bar h1 {
   border: 0;
   border-bottom: 1px dotted #1b222a; }
 
+#accordion {
+  margin-bottom: 20px; }
+  #accordion .card-header a {
+    color: inherit; }
+
 footer {
   background: #333333;
   color: white;

@@ -100,6 +100,16 @@ section#title-bar h1 {
     border-bottom: 1px dotted  $very-dark-blue ;
 }
 
+#accordion {
+    margin-bottom: 20px;
+
+    .card-header a {
+        color: inherit;
+    }
+}
+
+
+
 footer {
     background: lighten($color: black, $amount: 20%);
     color: white;
